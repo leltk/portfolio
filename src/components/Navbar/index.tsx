@@ -65,7 +65,7 @@ export const NavBar = (): JSX.Element => {
 export const NavLinks = (): JSX.Element => {
   return (
     <NavbarLinks>
-      {userData.whatsappNumber && (
+      {/* {userData.whatsappNumber && (
         <Button
           type="primary"
           as="a"
@@ -74,7 +74,7 @@ export const NavLinks = (): JSX.Element => {
         >
           Falar no whatsapp
         </Button>
-      )}
+      )} */}
 
       {userData.githubUser && (
         <Button
